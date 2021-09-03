@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiSlider-thumb:not(.MuiSlider-active) {
+  transition: left 1s ease-in;
+}
+
+.MuiSlider-track {
+  transition: width 1s ease-in;
+}
